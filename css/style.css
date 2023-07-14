@@ -1,3 +1,13 @@
+:root {
+  --primary-black-color: #212121;
+  --primary-white-color: #ffffff;
+
+  --primary-font: "Roboto", sans-serif;
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+}
 /* Base */
 button {
   font-family: "Roboto", sans-serif;
@@ -5,14 +15,14 @@ button {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
-  letter-spacing: 4%;
+  letter-spacing: 0.02em;
 }
 body {
   /* font-family: 'Raleway', sans-serif; */
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  letter-spacing: 2%;
+  letter-spacing: 0.01em;
   line-height: 1.5;
   color: #434455;
   background-color: #ffffff;
@@ -21,7 +31,7 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 ul {
@@ -33,6 +43,7 @@ ul {
 }
 .list {
   list-style-type: none;
+  list-style: none;
 }
 h1 {
   font-family: "Roboto", sans-serif;
@@ -78,17 +89,17 @@ a {
 .header-logo {
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2e2f42;
+  color: #4d5ae5;
   text-transform: uppercase;
 }
 .hader-logo-web {
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: #2e2f42;
   text-transform: uppercase;
 }
 /* Main */
@@ -98,6 +109,11 @@ a {
 .section-main-h {
   color: #ffffff;
   text-align: center;
+  letter-spacing: 0.02em;
+}
+.section-main-button:hover,
+.section-main-button:focus {
+  background-color: #404bbf;
 }
 .section-main-button {
   color: #ffffff;
@@ -110,21 +126,15 @@ a {
   background: #4d5ae5;
 }
 /* Main 2 */
-.section-main-second {
-  height: 600px;
+.text {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .text-list {
   align-items: center;
 }
-.text-item-first {
-  width: 264px;
-}
-.text-item-second {
-  width: 264px;
-}
-.text-item {
-  width: 264px;
-}
+
 /* What are we doing */
 .work {
   font-size: 36px;
@@ -132,7 +142,8 @@ a {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .section-work {
@@ -144,6 +155,8 @@ a {
 }
 .team-main {
   font-size: 36px;
+  text-align: center;
+  text-transform: capitalize;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -156,7 +169,8 @@ a {
 .footer {
   background-color: #2e2f42;
 }
-.footer-link {
+
+.footer-logo-web {
   color: #f4f4fd;
   font-size: 18px;
   font-weight: 800;
