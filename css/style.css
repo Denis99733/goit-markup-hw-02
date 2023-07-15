@@ -34,10 +34,7 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
 }
-ul {
-  list-style: none;
-  list-style-type: none;
-}
+
 .link {
   text-decoration: none;
 }
@@ -75,9 +72,7 @@ a {
   text-decoration-line: underline;
 }
 /* Header */
-.header {
-  align-items: center;
-}
+
 .header-menu-link {
   font-size: 16px;
   font-weight: 500;
@@ -108,7 +103,7 @@ a {
 }
 .section-main-h {
   color: #ffffff;
-  text-align: center;
+
   letter-spacing: 0.02em;
 }
 .section-main-button:hover,
@@ -121,8 +116,8 @@ a {
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.64px;
-  padding: 16px 32px;
-  border-radius: 4px;
+
+
   background: #4d5ae5;
 }
 /* Main 2 */
@@ -132,7 +127,7 @@ a {
   letter-spacing: 0.02em;
 }
 .text-list {
-  align-items: center;
+
 }
 
 /* What are we doing */
@@ -142,7 +137,7 @@ a {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
+
   text-transform: capitalize;
   color: #2e2f42;
 }
@@ -155,7 +150,7 @@ a {
 }
 .team-main {
   font-size: 36px;
-  text-align: center;
+
   text-transform: capitalize;
   font-weight: 700;
   line-height: 1.11;
